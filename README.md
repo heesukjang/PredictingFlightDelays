@@ -9,8 +9,6 @@ In Phase I of this project, we sorted out project management and our computing e
 
 In Phase II of this project, we first performed a join to combine our datasets. This was followed by the iterative data cleaning, EDA, and feature engineering process. We ran a logistic regression model as our baseline, after which we conducted LASSO regularizaiton. The resulting 24 features were used in another logistic regression, which showed substantial improvements over our baseline.
 
-In the final Phase III, we started by performing additional feature engineering and EDA to ensure we were getting the most utility out of the data. We then experimented with a variety of models (logistic regression, random forest, gradient boosted decision trees, multilayer perceptron, and long short-term memory), hyperparameters, and LASSO regularization to see how they performed on the validation data. The best model was selected, trained on the full data, and tested on an unseen data cut to give us our final performance.
+In the final Phase III, we started by performing additional feature engineering and EDA to ensure we were getting the most utility out of the data. We then experimented with a variety of models (logistic regression, decision tree, random forest, gradient boosted decision trees, multilayer perceptron, CNNs, and XGBoost), Bayesian optimization tuning, and LASSO regularization to see how they performed on the validation data. XGBoost was selected as the best model, trained on the full data, and tested on an unseen data cut to give us our final performance.
 
-Our final model showed a 35% increase in F1 score from our baseline model. Further investigation showed that precision and recall were very similar, indicating we have a balanced model. More details can be found in the code snippets.
-
-This group project was conducted in the UC Berkeley MIDS' "Machine Learning at Scale" course.
+Our final model showed a 18% increase in F2 score on the validation set from our baseline model. Further investigation showed that precision and recall were very similar, indicating we have a balanced model. 
