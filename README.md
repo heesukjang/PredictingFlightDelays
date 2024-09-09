@@ -1,4 +1,5 @@
-# Predicting Flight Delays, #####<i>UC Berkeley MIDS "Machine Learning at Scale" Group Project</i>
+# Predicting Flight Delays, 
+<i>#####UC Berkeley MIDS "Machine Learning at Scale" Group Project</i>
 
 
 The overall objective of this project was to predict departure delays greater than 15 minutes, 2 hours before takeoff. The business case is described in more detail in the [final report](https://github.com/heesukjang/PredictingFlightDelays/blob/main/Final_Report.pdf), but the results of this analysis have significant benefits for both airlines and passengers.
