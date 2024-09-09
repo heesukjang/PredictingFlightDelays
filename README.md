@@ -1,6 +1,6 @@
 # Predicting Flight Delays
 
-The overall objective of this project was to predict departure delays greater than 15 minutes, 2 hours before takeoff. The business case is described in more detail in the final report, but the results of this analysis have significant benefits for both airlines and passengers.
+The overall objective of this project was to predict departure delays greater than 15 minutes, 2 hours before takeoff. The business case is described in more detail in the [final report](https://github.com/heesukjang/PredictingFlightDelays/blob/main/Final_Report.pdf), but the results of this analysis have significant benefits for both airlines and passengers.
 
 In Phase I of this project, we sorted out project management and our computing environment. We also made plans for our data pipeline and did our initial EDA to identify variables of interest.
 
