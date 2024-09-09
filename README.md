@@ -3,12 +3,11 @@
 
 
 
-The overall objective of this project was to predict departure delays greater than 15 minutes, 2 hours before takeoff. The business case is described in more detail in the [final report](https://github.com/heesukjang/PredictingFlightDelays/blob/main/Final_Report.pdf), but the results of this analysis have significant benefits for both airlines and passengers.
+TThe goal of this project was to predict flight departure delays exceeding 15 minutes, 2 hours before takeoff. The detailed business case is available in the [final report](https://github.com/heesukjang/PredictingFlightDelays/blob/main/Final_Report.pdf), with significant potential benefits for airlines and passengers.
 
-In Phase I of this project, we sorted out project management and our computing environment. We also made plans for our data pipeline and did our initial EDA to identify variables of interest.
+In **Phase** I, we focused on project management, setting up the computing environment, planning the data pipeline, and conducting initial exploratory data analysis (EDA) to identify key variables.
 
-In Phase II of this project, we first performed a join to combine our datasets. This was followed by the iterative data cleaning, EDA, and feature engineering process. We ran a logistic regression model as our baseline, after which we conducted LASSO regularizaiton. The resulting 24 features were used in another logistic regression, which showed substantial improvements over our baseline.
+In **Phase II**, we joined datasets, performed data cleaning, EDA, and feature engineering. We started with a logistic regression baseline, followed by LASSO regularization, reducing the feature set to 24. This improved logistic regression showed notable performance gains over the baseline.
 
-In the final Phase III, we started by performing additional feature engineering and EDA to ensure we were getting the most utility out of the data. We then experimented with a variety of models (logistic regression, decision tree, random forest, gradient boosted decision trees, multilayer perceptron, CNNs, and XGBoost), Bayesian optimization tuning, and LASSO regularization to see how they performed on the validation data. XGBoost was selected as the best model, trained on the full data, and tested on an unseen data cut to give us our final performance.
+In **Phase III**, we expanded feature engineering and tested various models, including logistic regression, decision trees, random forests, gradient boosted decision trees, multilayer perceptron, CNNs, and XGBoost. After Bayesian optimization, 5-fold blocking time series cross-validation, and LASSO regularization, XGBoost emerged as the best model with a validation F2 score of 63%, an 18% improvement over the baseline. On the test set, XGBoost achieved an F2 score of 69%, with high precision (90%) but moderate recall (65%). While recall could be improved, the model maintains a good balance, prioritizing the detection of as many actual delays as possible in line with operational goals.
 
-Our final model showed a 18% increase in F2 score on the validation set from our baseline model. Further investigation showed that precision and recall were very similar, indicating we have a balanced model. 
