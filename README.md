@@ -17,4 +17,4 @@ For my **individual contribution**, I led the efforts in exploratory data analys
 <p>PySpark (MLflow, SQL), Python (Matplotlib, Pandas, NumPy, Seaborn, Datetime), DataBricks on GCP, MapReduce</p>
 
 <h3>Models Utilized</h3>
-<p>Logistic Regression (Baseline), **XGBoost (Top Performer)**, Decision Tree, Gradient Boosting, Random Forest, Mulitilayer Perception Classifier, and CNNs.</p>
+<p>Logistic Regression (Baseline), <strong>XGBoost (Top Performer)</strong>, Decision Tree, Gradient Boosting, Random Forest, Mulitilayer Perception Classifier, and CNNs.</p>
