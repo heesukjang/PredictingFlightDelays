@@ -13,7 +13,7 @@ In **Phase III**, we expanded feature engineering and tested various models, inc
 
 For my **individual contribution**, I led the efforts in exploratory data analysis (EDA), creating all 10 new features for feature engineering, and developed the XGBoost model. I applied Bayesian Optimization for hyperparameter tuning, reducing the risks of overfitting and selection bias to achieve the best performance among all the models tested.
 
-**Tehnologies Used:**<br>
+<h3>Tehnologies Used:</h3><br>
 PySpark (MLflow, SQL), Python (Matplotlib, Pandas, NumPy, Seaborn, Datetime), DataBricks on GCP, MapReduce
 
 **Models Utilized:**<br>
